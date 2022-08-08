@@ -1,3 +1,10 @@
+:root {
+	--red: #BD1900;
+	--yellow: #E0AD41;
+	--black: #000000;
+	--white: #FFFFFF;
+}
+
 *,
 *::before,
 *::after {
@@ -41,4 +48,33 @@ svg {
 #Sep,
 #Minute {
   font-size: 350px;
+}
+
+#STOP:hover rect,
+#SLOW:hover rect,
+#NORMAL:hover rect {
+	fill: var(--red);
+}
+
+#STOP:hover,
+#SLOW:hover,
+#NORMAL:hover,
+#RACING:hover {
+	cursor: pointer;
+}
+
+#RACING:hover #Urgent_block rect:nth-of-type(1) {
+	fill: var(--red);
+}
+
+#RACING:hover #Urgent_block rect:nth-of-type(2) {
+	fill: var(--black);
+}
+
+#RACING:hover #RACING_TEXT tspan {
+	fill: var(--white);
+}
+
+#RACING:hover #RACING_TEXT_JAP tspan {
+	fill: var(--yellow);
 }

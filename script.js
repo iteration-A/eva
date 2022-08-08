@@ -1,83 +1,37 @@
-const HOUR = document.querySelector(".hour");
-const MINUTE = document.querySelector(".minute");
-const SECOND = document.querySelector(".second");
+const HOUR = document.querySelector("#Hour tspan");
+const MINUTE = document.querySelector("#Minute tspan");
+const SECOND = document.querySelector("#Second tspan");
 
 const RED = "#BD1900";
 const YELLOW = "#E0AD41";
 
-const offsetOne = () => {
-  for (const item of [HOUR, MINUTE]) {
-    if (item.textContent.startsWith("1")) {
-      item.style.transform = "translateX(-80px)";
-      continue;
-    }
+// resize svg
+const SVG_FULL = document.getElementById("svg_full");
+window.addEventListener("pageshow", () => {
+  // const height = document.body.scrollHeight;
+  // const width = document.body.scrollWidth;
+  // SVG_FULL.setAttribute('viewBox', `0 0 ${width} ${height}`);
+  // SVG_FULL.setAttribute('height', height);
+  // SVG_FULL.setAttribute('width', width);
 
-    item.style.transform = "translateX(0)";
-  }
-};
+  // fix offset
+  document.querySelector("#Sep2 tspan").setAttribute("y", "680");
+  document.querySelector("#Sep2 tspan").setAttribute("x", "1330");
+  document.querySelector("#Sep2").setAttribute("style", "font-size: 110px");
+  console.log("what");
+});
 
 const updateClock =
   (format = 12) =>
   () => {
-    const date = new Date();
-    const [_date, time] = date
+    const [_date, time] = new Date()
       .toLocaleString("en-US", { hour12: format === 12 })
       .split(" ");
 
     const [h, m, s] = time.split(":");
-
     HOUR.textContent = String(h).padStart(2, "0");
-    MINUTE.textContent = String(m);
-    SECOND.textContent = String(s);
-
-    offsetOne();
+    MINUTE.textContent = String(m).padStart(2, "0");
+    SECOND.textContent = String(s).padStart(2, "0");
   };
 
-// ╭──────────────────────────────────────────────────────────╮
-// │                          EVENTS                          │
-// ╰──────────────────────────────────────────────────────────╯
-let INTERVAL = setInterval(updateClock(), 1000);
-
-// const changeColors = (color) => () => {
-// 	const colorToSearch = color === RED ? YELLOW : RED;
-// 	console.log(colorToSearch)
-//   const text = document.querySelectorAll(`[fill="${colorToSearch}"]`);
-//   const borders = document.querySelectorAll(`[stroke="${colorToSearch}"]`);
-
-//   for (const element of text) {
-//     element.style = `fill: ${color}`;
-//   }
-
-//   for (const element of borders) {
-//     element.style = `stroke: ${color}`;
-//   }
-
-//   for (const element of [HOUR, MINUTE, SECOND]) {
-//     element.style = `color: ${color}`;
-//   }
-
-//   clearInterval(INTERVAL);
-// };
-
-// const slow = () => {
-// 	clearInterval(INTERVAL);
-//   INTERVAL = setInterval(updateClock(), 2000);
-//   changeColors(YELLOW)();
-// };
-
-// const normal = () => {
-
-// }
-
-// const racing = () => {
-
-// }
-
-// document.getElementById("stop").addEventListener("click", changeColors(RED));
-// document.getElementById("slow").addEventListener("click", slow);
-// document
-//   .getElementById("normal")
-//   .addEventListener("click", normal);
-// document
-//   .getElementById("racing")
-//   .addEventListener("click", racing);
+setInterval(updateClock(), 1000);

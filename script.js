@@ -5,15 +5,7 @@ const SECOND = document.querySelector("#Second tspan");
 const RED = "#BD1900";
 const YELLOW = "#E0AD41";
 
-// resize svg
-const SVG_FULL = document.getElementById("svg_full");
 window.addEventListener("pageshow", () => {
-  // const height = document.body.scrollHeight;
-  // const width = document.body.scrollWidth;
-  // SVG_FULL.setAttribute('viewBox', `0 0 ${width} ${height}`);
-  // SVG_FULL.setAttribute('height', height);
-  // SVG_FULL.setAttribute('width', width);
-
   // fix offset
   document.querySelector("#Sep2 tspan").setAttribute("y", "680");
   document.querySelector("#Sep2 tspan").setAttribute("x", "1330");

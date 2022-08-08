@@ -1,8 +1,8 @@
 :root {
-	--red: #BD1900;
-	--yellow: #E0AD41;
-	--black: #000000;
-	--white: #FFFFFF;
+  --red: #bd1900;
+  --yellow: #e0ad41;
+  --black: #000000;
+  --white: #ffffff;
 }
 
 *,
@@ -24,20 +24,80 @@
 
 body,
 html {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
-	background-color: black;
-	font-family: Inter;
-}
-
-svg {
-  transform: scale(1.1) perspective(1200px) rotateY(-10deg);
+  background-color: black;
+  font-family: Inter;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #svg_full {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+}
+
+svg {
+  transform: scale(1.18) perspective(1200px) rotateY(-10deg) translateX(-4%);
+}
+
+body {
+  background: linear-gradient(
+    270deg,
+    #7d2a08,
+    #995714,
+    #a99222,
+    #949b22,
+    #799227,
+    #558323,
+    #4c7533,
+    #385c4d
+  );
+  background-size: 1600% 1600%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #Time > * {
@@ -53,28 +113,28 @@ svg {
 #STOP:hover rect,
 #SLOW:hover rect,
 #NORMAL:hover rect {
-	fill: var(--red);
+  fill: var(--red);
 }
 
 #STOP:hover,
 #SLOW:hover,
 #NORMAL:hover,
 #RACING:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #RACING:hover #Urgent_block rect:nth-of-type(1) {
-	fill: var(--red);
+  fill: var(--red);
 }
 
 #RACING:hover #Urgent_block rect:nth-of-type(2) {
-	fill: var(--black);
+  fill: var(--black);
 }
 
 #RACING:hover #RACING_TEXT tspan {
-	fill: var(--white);
+  fill: var(--white);
 }
 
 #RACING:hover #RACING_TEXT_JAP tspan {
-	fill: var(--yellow);
+  fill: var(--yellow);
 }

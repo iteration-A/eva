@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Digital";
+  src: url("fonts/Digital.ttf");
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.base {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hour,
+.minute,
+.second {
+	color: #E0AD41;
+	position: absolute;
+	font-family: Digital;
+}
+
+.hour {
+	font-size: 350px;
+	top: 30%;
+	left: 26%;
+}
+
+.minute {
+	font-size: 350px;
+	top: 30%;
+	left: 53%;
+}
+
+.second {
+	font-size: 100px;
+	top: 53%;
+	left: 81%;
+}

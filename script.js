@@ -1,5 +1,6 @@
 const CLOCK = document.querySelector("#Clock tspan");
 const SECONDS = document.querySelector("#Second tspan")
+const ZERUEL = document.querySelector(".zeruel");
 
 const RED = "#BD1900";
 const YELLOW = "#E0AD41";
@@ -34,7 +35,7 @@ const warning = () => {
 	document.body.style = `background: ${RED}`;
 };
 const death = () => {
-	alert('you are dead');
+	ZERUEL.style = "display: block";
 };
 
 const race = () => {

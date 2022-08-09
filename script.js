@@ -7,7 +7,7 @@ const YELLOW = "#E0AD41";
 
 let RACE_INTERVAL = null;
 
-const TIME = [0, 5, 59];
+const TIME = [0, 30, 0];
 
 let WARNED = false;
 
@@ -32,7 +32,7 @@ const warning = () => {
 		element.setAttribute('stroke', RED);
 	}
 
-	document.body.style = `background: ${RED}`;
+	document.body.classList.add('alert');
 };
 const death = () => {
 	ZERUEL.style = "display: block";
@@ -62,7 +62,7 @@ const race = () => {
 			setTimeout(death, 100);
 		}
 
-		if (minutes < 1 && !WARNED) {
+		if (minutes < 1 && seconds < 11 && !WARNED) {
 			warning();
 		}
 

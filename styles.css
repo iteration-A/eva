@@ -53,7 +53,7 @@ svg {
   transform: scale(1.18) perspective(1200px) rotateY(-10deg) translateX(-4%);
 }
 
-body.alert {
+.alert {
     background: linear-gradient(270deg, #bd1900, #7f2012);
     background-size: 400% 400%;
 
@@ -78,7 +78,7 @@ body.alert {
     100%{background-position:0% 50%}
 }
 
-body {
+.normal {
   background: linear-gradient(
     270deg,
     #7d2a08,

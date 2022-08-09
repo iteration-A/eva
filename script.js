@@ -32,6 +32,7 @@ const warning = () => {
 		element.setAttribute('stroke', RED);
 	}
 
+	document.body.classList.remove('normal');
 	document.body.classList.add('alert');
 };
 const death = () => {

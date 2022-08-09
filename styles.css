@@ -38,11 +38,6 @@ html {
   user-select: none;
 }
 
-#svg_full {
-  height: 100%;
-  width: 100%;
-}
-
 svg {
   transform: scale(1.18) perspective(1200px) rotateY(-10deg) translateX(-4%);
 }
@@ -104,11 +99,6 @@ body {
   font-family: Digital;
 }
 
-#Hour,
-#Sep,
-#Minute {
-  font-size: 350px;
-}
 
 #STOP:hover rect,
 #SLOW:hover rect,

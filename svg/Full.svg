@@ -1,6 +1,4 @@
-<svg width="1728" height="1117" viewBox="0 0 1728 1117" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Full">
-<path id="Background" d="M0 0H1728V1117C1053.17 1117 674.826 1117 0 1117V0Z" fill="url(#paint0_linear_10_2)"/>
+<svg width="1724" height="1117" viewBox="0 0 1724 1117" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Base">
 <g id="Border">
 <g id="Border_2">
@@ -146,12 +144,12 @@
 </g>
 <path id="Rectangle 9" d="M303 311H404V716L182.5 1118H78.5L163.5 716L303 311Z" fill="black"/>
 <g id="Union">
-<mask id="path-71-outside-1_10_2" maskUnits="userSpaceOnUse" x="298.677" y="178" width="1338" height="542" fill="black">
+<mask id="path-70-outside-1_2_13" maskUnits="userSpaceOnUse" x="298.677" y="178" width="1338" height="542" fill="black">
 <rect fill="white" x="298.677" y="178" width="1338" height="542"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M549.35 182H302.677V316H403.515V716H1632V227H571.015L549.35 182Z"/>
 </mask>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M549.35 182H302.677V316H403.515V716H1632V227H571.015L549.35 182Z" fill="black"/>
-<path d="M302.677 182V178H298.677V182H302.677ZM549.35 182L552.954 180.265L551.864 178H549.35V182ZM302.677 316H298.677V320H302.677V316ZM403.515 316H407.515V312H403.515V316ZM403.515 716H399.515V720H403.515V716ZM1632 716V720H1636V716H1632ZM1632 227H1636V223H1632V227ZM571.015 227L567.411 228.735L568.502 231H571.015V227ZM302.677 186H549.35V178H302.677V186ZM306.677 316V182H298.677V316H306.677ZM403.515 312H302.677V320H403.515V312ZM407.515 716V316H399.515V716H407.515ZM1632 712H403.515V720H1632V712ZM1628 227V716H1636V227H1628ZM571.015 231H1632V223H571.015V231ZM545.746 183.735L567.411 228.735L574.619 225.265L552.954 180.265L545.746 183.735Z" fill="#E0AD41" mask="url(#path-71-outside-1_10_2)"/>
+<path d="M302.677 182V178H298.677V182H302.677ZM549.35 182L552.954 180.265L551.864 178H549.35V182ZM302.677 316H298.677V320H302.677V316ZM403.515 316H407.515V312H403.515V316ZM403.515 716H399.515V720H403.515V716ZM1632 716V720H1636V716H1632ZM1632 227H1636V223H1632V227ZM571.015 227L567.411 228.735L568.502 231H571.015V227ZM302.677 186H549.35V178H302.677V186ZM306.677 316V182H298.677V316H306.677ZM403.515 312H302.677V320H403.515V312ZM407.515 716V316H399.515V716H407.515ZM1632 712H403.515V720H1632V712ZM1628 227V716H1636V227H1628ZM571.015 231H1632V223H571.015V231ZM545.746 183.735L567.411 228.735L574.619 225.265L552.954 180.265L545.746 183.735Z" fill="#E0AD41" mask="url(#path-70-outside-1_2_13)"/>
 </g>
 </g>
 <g id="Power source">
@@ -162,10 +160,10 @@
 <g id="Info">
 <rect id="Rectangle 10_2" x="1327.5" y="259.5" width="271" height="149" fill="black" stroke="#E0AD41" stroke-width="3"/>
 <g id="Dashed red block">
-<mask id="mask0_10_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1511" y="261" width="86" height="146">
+<mask id="mask0_2_13" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1511" y="261" width="86" height="146">
 <rect id="Rectangle 20" x="1511" y="261" width="86" height="146" fill="black"/>
 </mask>
-<g mask="url(#mask0_10_2)">
+<g mask="url(#mask0_2_13)">
 <g id="Group 3">
 <rect id="Rectangle 11" width="23.7537" height="268.047" transform="matrix(0.766044 0.642788 -0.726869 0.686776 1523.25 192.841)" fill="#BD1900"/>
 <rect id="Rectangle 12" width="23.7537" height="268.047" transform="matrix(0.766044 0.642788 -0.726869 0.686776 1549.87 215.178)" fill="#BD1900"/>
@@ -187,25 +185,9 @@
 <text id="&#230;&#180;&#187;&#229;&#139;&#149;&#233;&#153;&#144;&#231;&#149;&#140;&#227;&#129;&#190;&#227;&#129;&#167;" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="40" letter-spacing="0em"><tspan x="312" y="260.545">&#x6d3b;&#x52d5;&#x9650;&#x754c;&#x307e;&#x3067;</tspan></text>
 </g>
 <g id="Time">
-<text id="Sep" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital Numbers" font-size="250" letter-spacing="0em"><tspan x="782.024" y="612.625">:</tspan></text>
-<text id="Sep2" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital Numbers" font-size="190" letter-spacing="0em"><tspan x="1275.02" y="722.915">:</tspan></text>
-<text id="Hour" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital Numbers" font-size="250" letter-spacing="0em"><tspan x="479.049" y="604.125">06</tspan></text>
-<text id="Minute" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital Numbers" font-size="250" letter-spacing="0em"><tspan x="889.049" y="603.125">26</tspan></text>
-<text id="Second" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital Numbers" font-size="100" letter-spacing="0em"><tspan x="1382.52" y="678.35">59</tspan></text>
+<text id="Second" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital-7 Mono" font-size="100" letter-spacing="0em"><tspan x="1417.09" y="681.864">59</tspan></text>
+<text id="Clock" fill="#E0AD41" xml:space="preserve" style="white-space: pre" font-family="Digital-7 Mono" font-size="351" letter-spacing="0em"><tspan x="459.026" y="630.136">09:59</tspan></text>
 </g>
 </g>
 </g>
-</g>
-<defs>
-<linearGradient id="paint0_linear_10_2" x1="2.4746e-05" y1="557.882" x2="1729.1" y2="637.261" gradientUnits="userSpaceOnUse">
-<stop stop-color="#7D2A08"/>
-<stop offset="0.104167" stop-color="#995714"/>
-<stop offset="0.276042" stop-color="#A99222"/>
-<stop offset="0.427083" stop-color="#949B22"/>
-<stop offset="0.567708" stop-color="#799227"/>
-<stop offset="0.713542" stop-color="#558323"/>
-<stop offset="0.859375" stop-color="#4C7533"/>
-<stop offset="1" stop-color="#385C4D"/>
-</linearGradient>
-</defs>
 </svg>
